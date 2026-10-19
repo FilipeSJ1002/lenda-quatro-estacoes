@@ -1,0 +1,19 @@
+{
+ "name": "A Lenda das Quatro Estações",
+ "short_name": "Four Seasons",
+ "description": "Roguelike de ação em pixel art: quatro reinos, quatro artefatos.",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "fullscreen",
+ "orientation": "landscape",
+ "background_color": "#070a14",
+ "theme_color": "#070a14",
+ "icons": [
+  {
+   "src": "./icone.png",
+   "sizes": "180x180",
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ]
+}
