@@ -194,7 +194,8 @@
   // isto simplesmente nao acontece, e o jogo roda normalmente pela rede.
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('sw.js').catch(() => { /* sem offline, tudo bem */ });
+      navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+        .catch(() => { /* sem offline, tudo bem */ });
     });
   }
 
