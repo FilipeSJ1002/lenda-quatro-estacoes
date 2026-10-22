@@ -1,5 +1,5 @@
 
-const CAIXA = 'lenda-v1';
+const CAIXA = 'lenda-v2';
 const ARQUIVOS = ["./", "./index.html", "./lenda.html", "./manifest.webmanifest", "./jogo/loader.js", "./jogo/framework.js", "./jogo/codigo.0.wasm", "./jogo/dados.0.wasm", "./jogo/dados.1.wasm"];
 
 self.addEventListener('install', (evento) => {
